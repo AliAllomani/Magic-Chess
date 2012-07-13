@@ -1,0 +1,108 @@
+.place {
+    display:inline-block;
+    width:70px;
+    height:70px;
+    border: 2px dashed #ccc;
+    text-align:center;
+    vertical-align:middle; 
+    margin:3px;
+    background-repeat: no-repeat;
+}
+
+
+fielset{
+  
+}
+
+
+
+.active {
+    border: 2px dashed blue;
+}
+
+#places_container {
+    width:750px;
+
+    float:left;
+}
+
+.cover {
+    background-image:url('../img/cover.png');  
+    background-position: center center;
+}
+#my_player {
+    border: 1px dashed #ccc;
+    width:130px;   
+   padding-top:60px;
+   padding-bottom:4px;
+   margin: 10px;
+}
+
+.my_player_red {
+    background-image: url('../img/player_red.png');
+    background-repeat: no-repeat;
+    background-position: center top; 
+}
+
+.my_player_black {
+    background-image: url('../img/player_black.png');
+    background-repeat: no-repeat;
+    background-position: center top; 
+}
+
+
+#error { color:red;}
+
+#side_content {
+
+    width:150px;
+    float:left;
+
+    border: 1px solid #ccc;
+}
+
+
+.table {
+    border: 1px solid #ccc;
+    width:200px;
+    height:200px;
+    float:left;
+    margin:5px;
+    background-image:url('../img/table.png');
+
+}
+
+.table:hover {
+    border: 2px solid black;
+}
+
+.selected_table {
+    border: 2px solid aqua;
+}
+
+.player_black_on {
+    background-image: url('../img/player_black.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    width:200px;
+    height:100px;
+}
+
+.player_red_on {
+    background-image: url('../img/player_red.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width:200px;
+    height:100px;
+}
+
+#pass {
+    width:100px;
+    height:30px;
+    margin:10px;
+}
+#game_end {
+    width:120px;
+    height:30px;
+    margin:10px;
+}

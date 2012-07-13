@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/global.js"></script>
+        <script>
+            window.my_player = "{$smarty.session.player}";
+        </script>
+        <script type="text/javascript" src="js/play.js"></script>
+        <title> Play : Table #{$smarty.session.table}</title>
+    </head>
+
+    <body>
+
+    <center>
+        <div id='places_container'>
+            
+         {section name=i loop=$pieces_list}
+         <div class="place cover" id="{$smarty.section.i.index+1}" player="{$pieces_list[i].player}" piece="{$pieces_list[i].piece}"></div>
+        {/section}
+
+         
+        </div>
+
+        <div id='side_content'>
+  
+            <div id='my_player'></div>
+           
+            <div id='cur_player'></div>
+            <div id='result'></div>
+
+            <button id="pass">Pass</button>
+            <button id='game_end'>End The Game</button>
+
+            <div id='error'></div>
+        </div>
+    </center>
+
+
+</body>
+</html>

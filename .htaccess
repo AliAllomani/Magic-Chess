@@ -1,0 +1,7 @@
+RewriteEngine On
+
+
+
+RewriteRule ^ajax php/ajax.php
+RewriteRule ^lobby php/lobby.php
+RewriteRule ^play php/play.php
